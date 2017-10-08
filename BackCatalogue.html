@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Monkees Fansite</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+        <style type="text/css">
+ 
+        body {
+          background-color: #FFFF00;
+        }
+
+@media screen and (min-width: 665px) {
+   nav ul li {
+        display: inline-block;
+        width: 120px;
+        font-size: 20px;
+        border-bottom: none;
+   }
+}
+ nav ul li a {
+     display: block;
+     text-decoration: none;
+     font-family: roboto;
+     color: #fff;
+}
+nav ul {
+     list-style: none;
+     text-align: center;
+}
+nav ul li {
+     font-size: 30px;
+     border-bottom: 1px solid #444;
+     padding: 10px 5px;
+     background-color: #1D2026;
+}
+nav ul li:hover {
+     background-color: #555;
+     transition: all .3s ease;
+     
+}
+nav ul li:active {
+     background-color: white;
+     
+}
+nav ul li:last-of-type {
+    border-bottom: 0; 
+}
+
+        </style>
+    </head>
+    <body>
+    <p>Back Catalogue</p>
+    <nav>
+  <ul>
+     
+     <li><a href="index.html">New Releases</a></li>
+     <li><a href="Upcoming_Gigs.html">Upcoming Gigs</a></li>
+     <li><a href="Bookings.html">Bookings</a></li>
+     <li><a href="BackCatalogue.html">Back Catalogue</a></li>
+  </ul>
+</nav>
+<video controls= "controls" autoplay poster="Video/TheMonkees.mp4" filter=greyscale(1);>
+    <source src="Video/TheMonkees.mp4"/>
+</video>
+
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
