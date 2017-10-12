@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
         <style type="text/css">
- 
+        
         body {
           background-color: #FFFF00;
         }
@@ -15,7 +15,8 @@
 @media screen and (min-width: 665px) {
    nav ul li {
         display: inline-block;
-        width: 120px;
+        height: 100px;
+        width: 150px;
         font-size: 20px;
         border-bottom: none;
    }
@@ -48,6 +49,57 @@ nav ul li:active {
 nav ul li:last-of-type {
     border-bottom: 0; 
 }
+#form1{
+         display: flex;
+         flex-flow: column;
+         
+         }
+         #container{
+            width: 550px;
+            margin: auto;
+
+         }
+
+         legend{
+            font-size: 30px;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #999;
+            padding: 4px 15px;
+         }
+            
+         label.field{
+            display: block;
+            text-align: right;
+            width: 100px;
+            float: left;
+
+         }
+         input{
+            width: 200px;
+            border-radius: 5px;
+            padding: 6px 8px;
+         }
+         .field{
+            padding: 6px 8px;
+         }
+
+         #currency{
+             width: 220px;
+             border-radius: 5px;
+             padding: 6px 8px;
+         }
+
+         fieldset{
+            width: 450px;
+            border: 1px solid #999;
+            border-radius: 20px;
+            clear: both;
+            padding: 20px;
+            margin-bottom: 100px;
+            background-color:rgba(129, 187, 201,.2);
+
+         }
 
         </style>
     </head>
@@ -62,6 +114,34 @@ nav ul li:last-of-type {
      <li><a href="BackCatalogue.html">Back Catalogue</a></li>
   </ul>
 </nav>
+<div id="container" class="legend" class="label.field" class="input">
+      
+        <form>
+
+        <fieldset>
+         <legend>Bookings - Request a booking</legend>
+         <label for="fname" class="field">First Name:</label> 
+         <input type="text" name="fname" placeholder="First Name" />
+         <label for="lname" class="field">Last Name:</label> 
+         <input type="text" name="lname" placeholder="Last Name" />
+         <label for="location" class="field">Location</label>
+         <input id="location" name="location" type="location" placeholder="Location" />
+         <label for="date" class="date">Date</label>
+         <input type="date" name="date" id="datepicker" placeholder="Date">
+         <label for="telephone" class="field">Telephone</label>
+         <input name="telephone" type="tel" title="Telephone" 
+         pattern="[0-9] {11}" placeholder="Telephone" />
+         <label for="email" class="field">Email:</label>
+         <input id="email" name="email" type="email" placeholder="Email" />
+          
+         
+        
+         
+         <input type="submit" value="submit"/>
+         </fieldset>
+      </form>
+      
+    </div>
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>

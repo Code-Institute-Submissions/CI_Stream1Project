@@ -6,6 +6,7 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <style type="text/css">
  
         body {
@@ -15,39 +16,34 @@
 @media screen and (min-width: 665px) {
    nav ul li {
         display: inline-block;
-        width: 120px;
+        height: 100px;
+        width: 150px;
         font-size: 20px;
         border-bottom: none;
    }
 }
- nav ul li a {
-     display: block;
-     text-decoration: none;
-     font-family: roboto;
-     color: #fff;
+ <style>
+       td, th {
+      width: 5rem;
+      height: 2rem;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background: lightblue;
+      border-color: white;
+    }
+    body {
+      padding: 1rem;
+      font-family: Roboto;
+    }
+
+.selection{
+  background-color: yellow;
 }
-nav ul {
-     list-style: none;
-     text-align: center;
-}
-nav ul li {
-     font-size: 30px;
-     border-bottom: 1px solid #444;
-     padding: 10px 5px;
-     background-color: #1D2026;
-}
-nav ul li:hover {
-     background-color: #555;
-     transition: all .3s ease;
-     
-}
-nav ul li:active {
-     background-color: white;
-     
-}
-nav ul li:last-of-type {
-    border-bottom: 0; 
-}
+
+  </style>
+
 
         </style>
     </head>
@@ -62,6 +58,46 @@ nav ul li:last-of-type {
      <li><a href="BackCatalogue.html">Back Catalogue</a></li>
   </ul>
 </nav>
+<table>
+
+    <tr>
+      <th></th>
+      <th>Location</th>
+      <th>Venue</th>
+      <th>Date</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+
+      <td>Glasgow</td>
+      <td>SSE Hydro</td>
+      <td>30/03/2018</td>
+      <td>£30</td>
+    </tr>
+    <tr>
+      
+      <td>Edinburgh</td>
+      <td>The Corn Exchange</td>
+      <td>05/04/2018</td>
+      <td>£25</td>
+    </tr>
+    <tr>
+      
+      <td>Birmingham</td>
+      <td>The NEC</td>
+      <td>10/04/2018</td>
+      <td>£35</td>
+    </tr>
+    <tr>
+      
+      <td>London</td>
+      <td>The O2 Arena</td>
+      <td>15/04/2018</td>
+      <td>£50</td>
+    </tr>
+    
+  </table>
+  <script type="text/javascript" src="jqueryTable.js"></script>
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
     </body>
