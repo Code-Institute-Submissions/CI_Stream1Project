@@ -1,3 +1,10 @@
+Project concept:60's retro ,pages,http://www.fontspace.com/category/60s
+pdf mockup
+install npm webserver
+node models
+how bootstrap components reuse,override
+https://www.google.co.uk/search?q=music+venue+icon&client=firefox-b-ab&dcr=0&tbm=isch&source=iu&pf=m&ictx=1&fir=F9N61D2rjzTemM%253A%252CegckZu0JRCH2SM%252C_&usg=__MdJUwm-bEUQ4iVde27DcAXpPj2U%3D&sa=X&ved=0ahUKEwjn8vDAkoLXAhWmF8AKHW8rDYQQ9QEIODAH&biw=1655&bih=878#imgrc=F9N61D2rjzTemM:
+
 Final Project For Stream One
 In this unit the students are given the guidelines for their stream one project
 
