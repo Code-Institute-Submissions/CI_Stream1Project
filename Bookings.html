@@ -6,6 +6,15 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>  
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>  
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.datepicker.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                    $("#datepicker").datepicker({ dateFormat: "yy-mm-dd" }).val()
+            });
+        </script>
         <style type="text/css">
         
         body {
@@ -130,7 +139,7 @@ nav ul li:last-of-type {
          <input id="location" name="location" type="location" placeholder="Location" />
          <p></p>
          <label for="date" class="date">Date</label>
-         <input type="date" name="date" id="datepicker" placeholder="Date">
+         <input type="text" name="date" id="datepicker" placeholder="Date" />
          <p></p>
          <label for="telephone" class="field">Telephone</label>
          <input name="telephone" type="tel" title="Telephone" 

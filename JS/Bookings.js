@@ -1,3 +1,10 @@
+
+
+    $(function() {
+        $("#datepicker").datepicker({ dateFormat: "dd-mm-yy" }).val()
+});
+
+
 function FormValidation (fname,lname,location,date,tel,emails){
     var fname= document.forms["Booking"]["fname"].value;
     var lname= document.forms["Booking"]["lname"].value;
