@@ -1,8 +1,12 @@
 
 body {
     background-color: #FFFF00;
+    font-family:Actionis;
+    font-family:'Mrs Sheppards';
   }
-
+  #Welcome{
+    font-family:'Actionis'; 
+  }
 @media screen and (min-width: 665px) {
 nav ul li {
   display: inline-block;
@@ -25,7 +29,9 @@ border-color: white;
 
 body {
 padding: 1rem;
-font-family: Mrs Sheppards;
+font-family:'Mrs Sheppards';
+font-family:Actionis;
+font-size: 20px;
 /*font-family: Roboto;*/
 /*font-family: shagade;*/
 }
@@ -36,7 +42,7 @@ background-color: red;
 nav ul li a {
 display: inline-block;
 text-decoration: none;
-font-family: Mrs Sheppards;
+font-family: 'Mrs Sheppards';
 /* font-family: roboto; */
 color: #fff;
 }
