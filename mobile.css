@@ -1,0 +1,45 @@
+@media screen and (min-width: 400px){   /* min-width for mobile */
+    p {
+        font-size: 20px;
+    }
+
+    .box {
+    text-align: left;
+    background-color:#eee;
+    border-color: blue;
+    }
+}
+    @media screen and (min-width: 401px){   /* min-width for desktop */
+    p {
+    font-size: 20px;
+    }
+
+    .box {
+    text-align: left;
+    text-decoration-color: blue;
+    background-color:#eee;
+    border-color: blue;
+    
+    }
+}
+@media screen and (min-width: 1000px){   /* min-width for desktop */
+    p {
+    font-size: 20px;
+    }
+
+    .box {
+    text-align: left;
+    text-decoration-color: blue;
+    background-color:#eee;
+    border-color: blue;
+    text-decoration-color: white;
+    }
+    p::first-line {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    p::first-letter {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+}

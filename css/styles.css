@@ -13,6 +13,7 @@ nav ul li {
   height: 100px;
   width: 150px;
   font-size: 20px;
+  font-family:'Mrs Sheppards';
   border-bottom: none;
 }
 }
@@ -35,7 +36,10 @@ font-size: 20px;
 /*font-family: Roboto;*/
 /*font-family: shagade;*/
 }
-
+.border { 
+  border: 2px solid red;
+  border-radius: 5px;
+}
 .tc1 {
 background-color: red;
 }
@@ -49,22 +53,23 @@ color: #fff;
 nav ul {
 list-style: none;
 text-align: center;
+font-family: 'Mrs Sheppards';
 }
 nav ul li {
 font-size: 30px;
 border-bottom: 1px solid #444;
 padding: 10px 5px;
-
+font-family: 'Mrs Sheppards';
 background-color: red;
 }
 nav ul li:hover {
 background-color: #555;
 transition: all .3s ease;
-
+font-family: 'Mrs Sheppards';
 }
 nav ul li:active {
 background-color: white;
-
+font-family: 'Mrs Sheppards';
 }
 nav ul li:last-of-type {
 border-bottom: 0; 
