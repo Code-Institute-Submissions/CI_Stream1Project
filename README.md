@@ -25,10 +25,5 @@ Audio/Video playback
 Booking form
 Social media links 
  
-### Features Left to Implement
-60's font style
-booking form date picker
-booking form validation
-social media logos
-testing
+
  
