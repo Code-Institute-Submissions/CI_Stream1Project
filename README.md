@@ -1,23 +1,20 @@
-# CI_Stream1Project
+Stream 1 Project
 
 Project name:The Monkees Fansite
-
-## Overview 
-### Who is this website for?
 This website is aimed at fans of The Monkees pop band.
 
-### What is the concept of this website?
-A pop band website for fans with a 60's retro style.
+Style of the website
+The style of the band is based on a 60's retro style.
   
-### What does it do?
+Brief
 This website consists of 4 pages
 upcoming gigs - list's upcoming gigs
 new releases - previews new releases
 back catalogue - lists the band's back catalogue 
 bookings - takes booking requests
   
-### How does it work
-The site built with HTML5 and is styled with Bootstrap and CSS. 
+Technologies used
+The site is built with HTML5 ,CSS3,Javascript and Bootstrap 
 
 ## Features
 ### Existing Features

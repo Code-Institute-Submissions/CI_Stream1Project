@@ -57,3 +57,47 @@ Additional Advice
     Don’t forget to use your mentor’s help. Your mentor can act as:
         Your client
         Your technical consultant
+
+Diploma Assessment & Project Submission Guide
+Portfolio Guidelines
+
+The Code Institute Diploma in Software Development is based on completion of three project assignments, one to be completed at the conclusion of each section of learning. Each project assignment will demand demonstration of the required knowledge and competency for the topics included within that Section.
+
+The three submitted projects will reflect the topics covered in Code Institute Diploma in Software Development, Syllabus Version 1.0, and will combine to provide a final portfolio of each student’s work at the conclusion of the programme.
+
+Students are required to successfully complete all 3 projects (achieving a minimum pass grade of 50% in each case) in order to be awarded the certification.
+
+
+Portfolio Submission Deadline
+
+To complete the certification, a portfolio of all three projects must be submitted for marking on or before the Portfolio Submission Deadline.
+
+Classroom Students – the Portfolio Submission Deadline is 20 working days after the final lecture for a course.
+
+Mentored Online Students – there are 6 submission dates per year:
+
+    25th February
+    25th April
+    25th June
+    25th August
+    25th October
+    15th December
+
+Please note that these dates apply to mentored online students only, not classroom students. Mentored Online students will be required to submit final versions of their project work by the published Portfolio Deadline Submission date and no alterations should be made following that date.
+
+
+Project Grades and Marking Scheme
+
+Project work will be assessed after the final submission deadline and component projects will contribute to the overall grade as follows:
+
+    Project 1 ­ 20% (front-end only)
+    Project 2 ­ 40% (both front-end and back-end criteria)
+    Project 3 ­ 40% (both front-end and back-end criteria)
+
+Students must score a minimum pass grade of 50% in each project in order to achieve the
+certification standard. Final Certification grades will be awarded as follows, based on the overall grade:
+
+    0% – 49%: Fail
+    50% – 59%: Pass
+    60% – 69%: Merit
+    70% – 100%: Distinction
