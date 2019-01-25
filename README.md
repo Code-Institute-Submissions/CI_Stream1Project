@@ -1,4 +1,7 @@
-Stream 1 Project
+Stream 1 Project:The Monkees Fansite
+
+Project URL:https://riqharris1.github.io/CI_Stream1Project/
+Source code:https://github.com/riqharris1/CI_Stream1Project/tree/gh-pages
 
 Project name:The Monkees Fansite
 This website is aimed at fans of The Monkees pop band.
@@ -25,10 +28,5 @@ Audio/Video playback
 Booking form
 Social media links 
  
-### Features Left to Implement
-60's font style
-booking form date picker
-booking form validation
-social media logos
-testing
+
  
