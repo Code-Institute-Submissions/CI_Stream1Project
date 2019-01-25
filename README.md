@@ -21,12 +21,12 @@ The site is built with HTML5 ,CSS3,Javascript and Bootstrap
 
 ## Features
 ### Existing Features
-Image carousel
-Site navigation 
-Coloured Table
-Audio/Video playback
-Booking form
-Social media links 
+Image carousel,
+Site navigation, 
+Coloured Table,
+Audio/Video playback,
+Booking form,
+Social media links, 
  
 
  
